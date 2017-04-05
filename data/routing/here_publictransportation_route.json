@@ -1,0 +1,246 @@
+{
+    "response": {
+        "language": "en-us",
+        "metaInfo": {
+            "interfaceVersion": "2.6.29",
+            "mapVersion": "8.30.69.151",
+            "moduleVersion": "7.2.201712-118673",
+            "timestamp": "2017-04-05T17:21:05Z"
+        },
+        "route": [
+            {
+                "leg": [
+                    {
+                        "end": {
+                            "label": "Fischerinsel",
+                            "linkId": "-733288764",
+                            "mappedPosition": {
+                                "latitude": 52.5130616,
+                                "longitude": 13.4069291
+                            },
+                            "mappedRoadName": "Fischerinsel",
+                            "originalPosition": {
+                                "latitude": 52.513,
+                                "longitude": 13.407
+                            },
+                            "shapeIndex": 102,
+                            "sideOfStreet": "left",
+                            "spot": 0.8395062,
+                            "type": "stopOver"
+                        },
+                        "length": 11137,
+                        "maneuver": [
+                            {
+                                "_type": "PrivateTransportManeuverType",
+                                "id": "M1",
+                                "instruction": "Head <span class=\"heading\">north</span> on <span class=\"street\">Rostocker Stra\u00dfe</span>. <span class=\"distance-description\">Go for <span class=\"length\">292 m</span>.</span>",
+                                "length": 292,
+                                "position": {
+                                    "latitude": 52.5300082,
+                                    "longitude": 13.326703
+                                },
+                                "travelTime": 300
+                            },
+                            {
+                                "_type": "PrivateTransportManeuverType",
+                                "id": "M2",
+                                "instruction": "Turn <span class=\"direction\">right</span> onto <span class=\"next-street\">Sickingenstra\u00dfe</span>. <span class=\"distance-description\">Go for <span class=\"length\">136 m</span>.</span>",
+                                "length": 136,
+                                "position": {
+                                    "latitude": 52.53263,
+                                    "longitude": 13.3265877
+                                },
+                                "travelTime": 146
+                            },
+                            {
+                                "_type": "PrivateTransportManeuverType",
+                                "id": "M3",
+                                "instruction": "Turn <span class=\"direction\">left</span> onto <span class=\"next-street\">Beusselstra\u00dfe</span>. <span class=\"distance-description\">Go for <span class=\"length\">150 m</span>.</span>",
+                                "length": 150,
+                                "position": {
+                                    "latitude": 52.5329626,
+                                    "longitude": 13.3285081
+                                },
+                                "travelTime": 150
+                            },
+                            {
+                                "_type": "PublicTransportManeuverType",
+                                "id": "M4",
+                                "instruction": "Go to the station <span class=\"station\">Beusselstra\u00dfe</span> and take the <span class=\"transit\">rail</span> <span class=\"line\">S41</span>. <span class=\"distance-description\">Follow for <span class=\"stops\">4 stations</span>.</span>",
+                                "length": 6198,
+                                "position": {
+                                    "latitude": 52.5342393,
+                                    "longitude": 13.3289587
+                                },
+                                "stopName": "Beusselstra\u00dfe",
+                                "travelTime": 735
+                            },
+                            {
+                                "_type": "PublicTransportManeuverType",
+                                "id": "M5",
+                                "instruction": "Get off at <span class=\"station\">Sch\u00f6nhauser Allee</span> and change to the <span class=\"transit\">rail</span> <span class=\"line\">U2</span> toward <span class=\"destination\">Ruhleben</span>. <span class=\"distance-description\">Follow for <span class=\"stops\">6 stations</span>.</span>",
+                                "length": 4130,
+                                "position": {
+                                    "latitude": 52.5494206,
+                                    "longitude": 13.4136844
+                                },
+                                "stopName": "Sch\u00f6nhauser Allee",
+                                "travelTime": 585
+                            },
+                            {
+                                "_type": "PublicTransportManeuverType",
+                                "id": "M6",
+                                "instruction": "Get off at <span class=\"station\">M\u00e4rkisches Museum</span>.",
+                                "length": 0,
+                                "nextRoadName": "Wallstra\u00dfe",
+                                "position": {
+                                    "latitude": 52.5121593,
+                                    "longitude": 13.4093714
+                                },
+                                "stopName": "M\u00e4rkisches Museum",
+                                "travelTime": 0
+                            },
+                            {
+                                "_type": "PrivateTransportManeuverType",
+                                "id": "M7",
+                                "instruction": "Head <span class=\"heading\">southeast</span> on <span class=\"street\">Wallstra\u00dfe</span>. <span class=\"distance-description\">Go for <span class=\"length\">46 m</span>.</span>",
+                                "length": 46,
+                                "position": {
+                                    "latitude": 52.5121593,
+                                    "longitude": 13.4093714
+                                },
+                                "travelTime": 54
+                            },
+                            {
+                                "_type": "PrivateTransportManeuverType",
+                                "id": "M8",
+                                "instruction": "Turn <span class=\"direction\">right</span> onto <span class=\"next-street\">Neue Ro\u00dfstra\u00dfe</span>. <span class=\"distance-description\">Go for <span class=\"length\">173 m</span>.</span>",
+                                "length": 173,
+                                "position": {
+                                    "latitude": 52.511977,
+                                    "longitude": 13.4088027
+                                },
+                                "travelTime": 182
+                            },
+                            {
+                                "_type": "PrivateTransportManeuverType",
+                                "id": "M9",
+                                "instruction": "Turn <span class=\"direction\">left</span> onto <span class=\"next-street\">Fischerinsel</span>. <span class=\"distance-description\">Go for <span class=\"length\">12 m</span>.</span>",
+                                "length": 12,
+                                "position": {
+                                    "latitude": 52.5131249,
+                                    "longitude": 13.4070754
+                                },
+                                "travelTime": 12
+                            },
+                            {
+                                "_type": "PrivateTransportManeuverType",
+                                "id": "M10",
+                                "instruction": "Arrive at <span class=\"street\">Fischerinsel</span>. Your destination is on the left.",
+                                "length": 0,
+                                "position": {
+                                    "latitude": 52.5130616,
+                                    "longitude": 13.4069291
+                                },
+                                "travelTime": 0
+                            }
+                        ],
+                        "start": {
+                            "label": "Rostocker Stra\u00dfe",
+                            "linkId": "+811798120",
+                            "mappedPosition": {
+                                "latitude": 52.5300082,
+                                "longitude": 13.326703
+                            },
+                            "mappedRoadName": "Rostocker Stra\u00dfe",
+                            "originalPosition": {
+                                "latitude": 52.53,
+                                "longitude": 13.3259999
+                            },
+                            "shapeIndex": 0,
+                            "sideOfStreet": "left",
+                            "spot": 0.4507772,
+                            "type": "stopOver"
+                        },
+                        "travelTime": 2164
+                    }
+                ],
+                "mode": {
+                    "feature": [],
+                    "trafficMode": "disabled",
+                    "transportModes": [
+                        "publicTransport"
+                    ],
+                    "type": "fastest"
+                },
+                "publicTransportLine": [
+                    {
+                        "companyName": "",
+                        "destination": "",
+                        "id": "L1",
+                        "lineBackground": "#A54E3A",
+                        "lineForeground": "#A54E3A",
+                        "lineName": "S41",
+                        "type": "railRegional"
+                    },
+                    {
+                        "companyName": "",
+                        "destination": "Ruhleben",
+                        "id": "L2",
+                        "lineBackground": "#F05D26",
+                        "lineForeground": "#F05D26",
+                        "lineName": "U2",
+                        "type": "railMetro"
+                    }
+                ],
+                "summary": {
+                    "_type": "PublicTransportRouteSummaryType",
+                    "baseTime": 2164,
+                    "departure": "2017-04-05T19:21:06+02:00",
+                    "distance": 11137,
+                    "flags": [
+                        "builtUpArea"
+                    ],
+                    "text": "The trip takes <span class=\"length\">11.1 km</span> and <span class=\"time\">36 mins</span>.",
+                    "travelTime": 2164
+                },
+                "waypoint": [
+                    {
+                        "label": "Rostocker Stra\u00dfe",
+                        "linkId": "+811798120",
+                        "mappedPosition": {
+                            "latitude": 52.5300082,
+                            "longitude": 13.326703
+                        },
+                        "mappedRoadName": "Rostocker Stra\u00dfe",
+                        "originalPosition": {
+                            "latitude": 52.53,
+                            "longitude": 13.3259999
+                        },
+                        "shapeIndex": 0,
+                        "sideOfStreet": "left",
+                        "spot": 0.4507772,
+                        "type": "stopOver"
+                    },
+                    {
+                        "label": "Fischerinsel",
+                        "linkId": "-733288764",
+                        "mappedPosition": {
+                            "latitude": 52.5130616,
+                            "longitude": 13.4069291
+                        },
+                        "mappedRoadName": "Fischerinsel",
+                        "originalPosition": {
+                            "latitude": 52.513,
+                            "longitude": 13.407
+                        },
+                        "shapeIndex": 102,
+                        "sideOfStreet": "left",
+                        "spot": 0.8395062,
+                        "type": "stopOver"
+                    }
+                ]
+            }
+        ]
+    }
+}

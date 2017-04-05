@@ -1,0 +1,115 @@
+{
+    "code": "Ok",
+    "routes": [
+        {
+            "distance": 16.7,
+            "duration": 4.6,
+            "geometry": "klnlAmqmeIUQ",
+            "legs": [
+                {
+                    "annotation": {
+                        "distance": [
+                            16.688823494108664
+                        ],
+                        "duration": [
+                            4.6
+                        ],
+                        "speed": [
+                            3.6
+                        ]
+                    },
+                    "distance": 16.7,
+                    "duration": 4.6,
+                    "steps": [
+                        {
+                            "distance": 16.7,
+                            "duration": 4.6,
+                            "geometry": "klnlAmqmeIUQ",
+                            "intersections": [
+                                {
+                                    "bearings": [
+                                        38
+                                    ],
+                                    "entry": [
+                                        true
+                                    ],
+                                    "location": [
+                                        53.486465,
+                                        12.694616
+                                    ],
+                                    "out": 0
+                                }
+                            ],
+                            "maneuver": {
+                                "bearing_after": 38,
+                                "bearing_before": 0,
+                                "instruction": "Head northeast",
+                                "location": [
+                                    53.486465,
+                                    12.694616
+                                ],
+                                "type": "depart"
+                            },
+                            "mode": "driving",
+                            "name": "",
+                            "weight": 9.2
+                        },
+                        {
+                            "distance": 0,
+                            "duration": 0,
+                            "geometry": "amnlA_rmeI",
+                            "intersections": [
+                                {
+                                    "bearings": [
+                                        218
+                                    ],
+                                    "entry": [
+                                        true
+                                    ],
+                                    "in": 0,
+                                    "location": [
+                                        53.48656,
+                                        12.694734
+                                    ]
+                                }
+                            ],
+                            "maneuver": {
+                                "bearing_after": 0,
+                                "bearing_before": 38,
+                                "instruction": "You have arrived at your destination",
+                                "location": [
+                                    53.48656,
+                                    12.694734
+                                ],
+                                "type": "arrive"
+                            },
+                            "mode": "driving",
+                            "name": "",
+                            "weight": 0
+                        }
+                    ],
+                    "summary": "",
+                    "weight": 9.2
+                }
+            ],
+            "weight": 9.2,
+            "weight_name": "routability"
+        }
+    ],
+    "waypoints": [
+        {
+            "location": [
+                53.486465,
+                12.694616
+            ],
+            "name": ""
+        },
+        {
+            "location": [
+                53.48656,
+                12.694734
+            ],
+            "name": ""
+        }
+    ]
+}
